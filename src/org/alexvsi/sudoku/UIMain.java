@@ -1,0 +1,23 @@
+package org.alexvsi.sudoku;
+
+
+import org.alexvsi.sudoku.ui.custom.frame.MainFrame;
+import org.alexvsi.sudoku.ui.custom.panel.MainPanel;
+import org.alexvsi.sudoku.ui.custom.screen.MainScreen;
+
+import javax.swing.*;
+import java.awt.*;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class UIMain {
+    public static void main(String[] args) {
+        final var gameConfig = Stream.of(args)
+                .collect(Collectors.toMap(
+                   k -> k.split(";")[0],
+                        v -> v.split(";")[1]
+                ));
+        var mainScreen = new MainScreen(gameConfig);
+        mainScreen.buildMainScreen();
+    }
+}
