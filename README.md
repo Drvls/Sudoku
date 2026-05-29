@@ -1,6 +1,6 @@
 # Sudoku
 
-Projeto desenvolvido durante o bootcamp Orange Tech+ Back-End da DIO. Implementação do jogo Sudoku em Java com duas interfaces distintas: modo console via terminal e modo gráfico com Java Swing.
+Projeto desenvolvido durante o bootcamp Almaviva Solutions - Back-end com Java & QA da DIO. Implementação do jogo Sudoku em Java com duas interfaces distintas: modo console via terminal e modo gráfico com Java Swing.
 
 ## Sobre o projeto
 
